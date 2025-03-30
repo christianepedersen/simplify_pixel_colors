@@ -2,6 +2,5 @@ numpy==1.22.0
 matplotlib==3.5.1
 scikit-learn==1.0.2
 umap-learn==0.5.2
-hdbscan==0.8.27
 opencv-python==4.5.5.62
 Pillow==9.0.0
