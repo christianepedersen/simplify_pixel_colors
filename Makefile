@@ -4,7 +4,6 @@ PYTHON := $(VENV_DIR)/Scripts/python
 PIP := $(VENV_DIR)/Scripts/pip
 JUPYTER := $(VENV_DIR)/Scripts/jupyter
 
-
 # Create virtual environment only if it doesn't exist
 $(VENV_DIR):
 	python -m venv $(VENV_DIR)
@@ -20,4 +19,4 @@ notebook: $(VENV_DIR)
 clean:
 	rm -rf $(VENV_DIR)
 
-.PHONY: all venv install notebook clean
+.PHONY: notebook clean
